@@ -1,0 +1,16 @@
+{
+  "domain": "ha_axiom",
+  "name": "Axiom Home Assistant Bridge",
+  "codeowners": [
+    "@gordallott"
+  ],
+  "dependencies": "http",
+  "config_flow": true,
+  "documentation": "https://github.com/gordallott/ha-axiom-bridge",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/gordallott/ha-axiom-bridge/issues",
+  "version": "0.1.0",
+  "requirements": [
+    "axiom-py==0.1.1"
+  ]
+}
